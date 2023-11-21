@@ -1,0 +1,172 @@
+.modalComparar{
+    position: absolute;
+    top:0;
+    left:610px;
+}
+
+.botonComparar{
+    border: 0.5px solid rgb(192, 192, 192);
+    border-radius: 3px;
+    margin-top:10px;
+    padding: 3px;
+    padding-left:5px;
+    display: inline-block;
+    background-color: azure;
+    margin-left: 10px;
+}
+
+.selectPC{
+        display: grid;
+}
+
+.badge.bg-blue{
+
+    font-size: 15px;
+
+}
+
+#editarPlanilla input{
+
+    font-size: 1.1em;
+
+}
+
+.hide { display: none; }
+
+input[type="radio"] + .icon,
+input[type="radio"] + label > .icon { cursor: pointer; font-size:2.5em;}
+
+/* Unchecked */
+input[type="radio"] + .icon-cerdo:before,
+input[type="radio"] + label > .icon-cerdo:before { content: "\e902";color:black; border-right-color: black;} 
+
+input[type="radio"] + .icon-chivo:before,
+input[type="radio"] + label > .icon-chivo:before { content: "\e903";color:black; border-right-color: black;} 
+
+input[type="radio"] + .icon-cordero:before,
+input[type="radio"] + label > .icon-cordero:before { content: "\e904";color:black; border-right-color: black;} 
+
+input[type="radio"] + .icon-pollo:before,
+input[type="radio"] + label > .icon-pollo:before { content: "\e90a";color:black; border-right-color: black;} 
+
+input[type="radio"] + .icon-vaca:before,
+input[type="radio"] + label > .icon-vaca:before { content: "\e90c";color:black; border-right-color: black;} 
+
+input[type="radio"] + .icon-entero:before,
+input[type="radio"] + label > .icon-entero:before { content: "\e907";color:black; border-right-color: black;} 
+
+input[type="radio"] + .icon-medio:before,
+input[type="radio"] + label > .icon-medio:before { content: "\e908";color:black; border-right-color: black;} 
+
+input[type="radio"] + .icon-cuartoDel:before,
+input[type="radio"] + label > .icon-cuartoDel:before { content: "\e905";color:black; border-right-color: black;} 
+
+input[type="radio"] + .icon-cuartoTra:before,
+input[type="radio"] + label > .icon-cuartoTra:before { content: "\e900";color:black; border-right-color: black;} 
+
+input[type="radio"] + .icon-costillar:before,
+input[type="radio"] + label > .icon-costillar:before { content: "\e901";color:black; border-right-color: black;} 
+
+/* CHECKED */
+input[type="radio"]:checked + .icon-cerdo:before,
+input[type="radio"]:checked + label > .icon-cerdo:before { content: "\e902";color:green; }
+
+input[type="radio"]:checked + .icon-chivo:before,
+input[type="radio"]:checked + label > .icon-chivo:before { content: "\e903";color:green; }
+
+input[type="radio"]:checked + .icon-cordero:before,
+input[type="radio"]:checked + label > .icon-cordero:before { content: "\e904";color:green; }
+
+input[type="radio"]:checked + .icon-pollo:before,
+input[type="radio"]:checked + label > .icon-pollo:before { content: "\e90a";color:green; }
+
+input[type="radio"]:checked + .icon-vaca:before,
+input[type="radio"]:checked + label > .icon-vaca:before { content: "\e90c";color:green; }
+
+input[type="radio"]:checked + .icon-entero:before,
+input[type="radio"]:checked + label > .icon-entero:before { content: "\e907";color:green; }
+
+input[type="radio"]:checked + .icon-medio:before,
+input[type="radio"]:checked + label > .icon-medio:before { content: "\e908";color:green; }
+
+input[type="radio"]:checked + .icon-cuartoDel:before,
+input[type="radio"]:checked + label > .icon-cuartoDel:before { content: "\e905";color:green; }
+
+input[type="radio"]:checked + .icon-cuartoTra:before,
+input[type="radio"]:checked + label > .icon-cuartoTra:before { content: "\e900";color:green; }
+
+input[type="radio"]:checked + .icon-costillar:before,
+input[type="radio"]:checked + label > .icon-costillar:before { content: "\e901";color:green; }
+
+
+.tablasConsumo{
+
+    height: 500px;
+    max-height: 500px;
+    overflow-y: scroll;
+
+}
+
+.btn-no-margintop{
+
+    margin-top:0!important;
+
+}
+
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 360px) { 
+
+    .inner p{
+
+        font-size:1.2em!important;
+        
+
+    }
+
+    .content-wrapper button,.content-wrapper a{
+
+        font-size:0.95em;
+
+
+    }
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+    .inner p{
+
+        font-size:1.5em!important;
+        
+
+    }
+
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+    .inner p{
+
+        font-size:1.5em!important;
+        
+
+    }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+    
+    .inner p{
+
+        font-size:1.5em!important;
+        
+
+    }
+
+ }
